@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <title>Portfolio</title>
+  <meta name="description" content="Portfolio Rayane-BELKREIR" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="main-header__logo-container">
+      <div class="main-header__logo-img-cont">
+        <img src="./assets/lkjf.png"
+          alt="logo Image" class="main-header__logo-img" />
+      </div>
+      <h4 class="main-header__logo-text">Rayane BELKREIR</h4>
+    </div>
+    <nav class="main-header__navigation">
+      <ul class="main-header__navigation-links">
+        <li class="main-header__navigation-link"><a href="./index.html"> Accueil</a></li>
+        <li class="main-header__navigation-link"><a href="./index.html#about"> A propos</a></li>
+        <li class="main-header__navigation-link">
+          <a href="./index.html#projects"> Projets </a>
+        </li>
+        <li class="main-header__navigation-link"><a href="./index.html#contact" href=""> Contact </a></li>
+      </ul>
+    </nav>
+    <div class="main-header__sm-scr-nav-btn">
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+      <div class="main-header__sm-scr-nav-btn-line"></div>
+    </div>
+    <div class="main-header__sm-menu">
+      <div class="main-header__sm-menu-close">
+
+      </div>
+      <ul class="main-header__sm-menu-links">
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--1" name="home-hero">Accueil</a>
+        </li>
+
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--2" name="about">A propos</a>
+        </li>
+        <li>
+          <a href="#btn btn-theme home-hero__btn-theme" class="main-header__sm-menu-link main-header__sm-menu-link--3" name="projects">Projets</a>
+        </li>
+        <li>
+          <a class="main-header__sm-menu-link main-header__sm-menu-link--4" name="contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="themeClrSelector">
+    <img alt="theme color tester" src="https://img.icons8.com/fluent/48/000000/rgb-circle-1.png"
+      class="themeClrSelector__img" />
+  </div>
+  <section id="home-hero" class="home-hero">
+    <div class="home-hero__content">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__sm"> Salut ! 👋</span>
+          <span class="heading-primary__main">
+            Je suis Rayane BELKREIR ! Un futur administrateur en sécurité informatique passionné par la protection des données et la conception de systèmes robustes et fiables. Avec une solide formation technique et une curiosité constante pour les dernières avancées en cybersécurité, je suis déterminé à contribuer à la sécurisation des environnements numériques.
+          </span>
+        </h1>
+        <a class="btn btn-theme home-hero__btn-theme" href="https://github.com/rayane-belkreir" target="_blank" rel="noopener noreferrer">Github</a>
+        <a class="btn btn-inv home-hero__btn-theme" href="mailto:rayane.belkreir1@laplateforme.io">Contactez-moi par email</a>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="about main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> A propos 🦄</span>
+        <span class="heading-secondary__maiFVFn">
+          Vous trouverez ici plus d'informations sur moi, ce que je fais et la liste de mes compétences actuelles en programmation.
+      </h2>
+      <div class="main-section__content">
+        <div class="about__info">
+          <div class="about__main-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+             Mon histoire
+            </h3>
+            <p class="text-primary about__text-primary">
+              <span>
+                Je m'appelle Rayane Belkreir, étudiant passionné par le domaine de l'informatique. Actuellement en première année à La Plateforme, je me spécialise en administration et sécurité informatique, des domaines clés dans un monde de plus en plus connecté et où la cybersécurité est devenue primordiale.
+
+                Mon parcours a commencé avec un BTS SIO (Services Informatiques aux Organisations), que j'ai obtenu au lycée Charles Péguy. Ce diplôme m'a permis de poser les bases solides de mes compétences en informatique, notamment dans l'administration réseau et le développement. Cependant, c'est vers l'orientation réseaux et infrastructures que j'ai décidé de diriger mon expertise.
+                
+                Aujourd'hui, à travers ma formation à La Plateforme, j'approfondis mes connaissances en administration système et en sécurité des données. Mon objectif est de devenir un expert capable de concevoir et de protéger des infrastructures informatiques fiables, répondant aux besoins des entreprises tout en garantissant la sécurité des informations.
+                
+                Je suis motivé par l'idée de relever les défis technologiques de demain et de contribuer à bâtir un monde numérique plus sûr.
+              </span>
+            </p>
+            <a class="btn btn-theme about__btn-theme" href="#projects">Projects</a>
+          </div>
+          <div class="about__skill-info">
+            <h3 class="heading-quaternary about__heading-quaternary">
+              Mes compétances
+            </h3>
+            <ul class="about__skills">
+              <li class="about__skill">html</li>
+              <li class="about__skill">CSS3</li>
+              <li class="about__skill">Photoshop</li>
+              <li class="about__skill">css</li>
+              <li class="about__skill">javascript</li>
+              <li class="about__skill">git</li>
+              <li class="about__skill">linux</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-showcase">
+    <ul class="skills-showcase__list">
+      <li class="skills-showcase__list-item">
+        <i class="devicon-css3-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-javascript-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-git-plain"></i>
+      </li>
+      <li class="skills-showcase__list-item">
+        <i class="devicon-python-plain"></i>
+      </li>
+    </ul>
+  </section>
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary projects__heading-secondary">
+        <span class="heading-secondary__sm"> Projects 🛠️</span>
+        <span class="heading-secondary__main">
+          Ici, vous trouverez certains des projets personnels que j'ai réalisés, accompagnés des détails de chaque projet.
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="projects__list">
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 1 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/mock1.PNG" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                BloomsPetals
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Dans le cadre de ce projet, j’ai créé de A à Z un site web pour un fleuriste appelé BloomPetals. Ce site a été conçu pour répondre aux besoins spécifiques de l’entreprise, en mettant en avant son expertise et ses services.
+
+                  Le site comprend plusieurs sections essentielles, dont une page d’accueil avec une présentation de l’entreprise et des services proposés :
+                  
+                  - Création de bouquets personnalisés pour tous types d’événements.
+                  - Décoration florale d’événements avec des mises en scène uniques et élégantes.
+                  - Ateliers de composition florale interactifs pour les passionnés.
+                  - L’objectif principal du site est de valoriser l’image professionnelle du fleuriste tout en offrant une navigation simple et intuitive pour les visiteurs. L’interface est soignée, avec une mise en page épurée et des textes qui reflètent le savoir-faire et la créativité de BloomPetals.
+                  
+                  Ce projet m’a permis de combiner mes compétences techniques en développement web avec une approche créative adaptée aux attentes du client.
+                </span>
+
+              </p>
+              <a href="https://github.com/rayane-belkreir/BloomsPetals.git" target="_blank">
+                <button class="btn btn-theme projects__btn-theme">
+                  Code Source
+                </button>
+                <a href="https://rayane-belkreir.github.io/BloomsPetals/" class="btn btn-theme projects__btn-theme" target="_blank">
+                  Site en direct
+              </a>
+              </button>              
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Portfolo.PNG" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Portfolio (Site Test)
+              </h3>
+
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Dans le cadre de ce projet, j’ai conçu une page web pour servir de site test à un portfolio professionnel. L’objectif était de créer une vitrine personnelle permettant de mettre en valeur l’identité visuelle et les compétences de son utilisateur, tout en offrant une expérience de navigation fluide et intuitive.
+
+                  Le site comprend une interface moderne et élégante, avec un design minimaliste mettant en avant les éléments clés. La présentation de la page d’accueil inclut un visuel impactant, associé à des textes accrocheurs et professionnels. Chaque section du site a été pensée pour refléter le style et la personnalité de l’utilisateur, en alliant simplicité et efficacité.
+                  
+                  Ce projet a permis de combiner des techniques avancées de conception web avec une approche axée sur l’esthétique et l’ergonomie, offrant ainsi une solution adaptée aux besoins de la création de portfolios modernes.
+                </span>
+              </p>
+              <a href="https://github.com/rayane-belkreir/Portfolio.git" target="_blank">
+                <button class="btn btn-theme projects__btn-theme">
+                  Code Source
+                </button>
+                <a href="https://rayane-belkreir.github.io/Portfolio/" class="btn btn-theme projects__btn-theme" target="_blank">
+                  Site en direct
+              </a>
+
+            </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 2 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+          <div class="projects__list-item">
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 3 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+                <img src="./assets/Megan Fox.PNG" alt="Project Image" class="projects__list-item-img" />
+              </div>
+              <h3 class="heading-tertiary projects__list-item-heading-tertiary">
+                Megan Fox Fansite
+              </h3>
+              <p class="text-primary projects__list-item-text-primary">
+                <span>
+                  Dans le cadre de ce projet, j’ai développé un site web dédié à Megan Fox, conçu pour célébrer sa carrière et offrir un espace interactif à ses fans. Le site propose plusieurs sections clés, dont une rubrique d’actualités pour suivre ses projets récents, une présentation de ses réalisations avec un focus sur ses rôles emblématiques au cinéma, et des galeries multimédias mettant en avant ses apparitions publiques et son travail artistique. Ce projet m’a permis de combiner mes compétences en développement web avec une mise en page élégante et une navigation intuitive, afin de refléter l’image glamour et captivante de Megan Fox.
+                </span>
+              </p>
+              <a href="https://github.com/rayane-belkreir/Meganfox.git" target="_blank">
+                  <button class="btn btn-theme projects__btn-theme">
+                    Code Source
+                  </button>
+                  <a href="https://rayane-belkreir.github.io/Meganfox/" class="btn btn-theme projects__btn-theme" target="_blank">
+                    Site en direct
+                </a>
+            </div>
+          </div>
+          <div class="projects__list-item projects__list-item--inv">
+            <div class="projects__list-item-details">
+              <div class="projects__list-item-img-cont">
+              </div>
+            <div class="projects__list-item-count">
+              <span class="projects__list-item-count-num"> 4 </span>
+              <span class="projects__list-item-count-line"> </span>
+              <span class="projects__list-item-count-end-dot"> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">
+        <span class="heading-secondary__sm"> Contacter 📞</span>
+        <span class="heading-secondary__main">
+          N'hésitez pas à me contacter en soumettant le formulaire ci-dessous et je vous répondrai dans les plus brefs délais
+        </span>
+      </h2>
+      <div class="main-section__content">
+        <div class="contact__form-cont">
+          <form class="contact__form">
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Nom</label>
+              <input placeholder="Entrer votre prénom" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Email</label>
+              <input placeholder="Entrer votre email" type="text" class="contact__form-field-input" />
+            </div>
+            <div class="contact__form-field">
+              <label for="name" class="contact__form-field-label">Message</label>
+              <textarea placeholder="Entrer votre message" name="message" id="" cols="30" rows="10"
+                class="contact__form-field-input"></textarea>
+            </div>
+            <button type="submit" class="contact__form-submit">Envoyez</button>
+          </form>
+          <div class="contact__form-visual"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-footer__upper">
+      <div class="main-container">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
+            <a href="./index.html">Accueil</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#about">A propos</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#projects">Projets</a>
+          </li>
+          <li class="main-footer__link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="main-footer__mid-line"></div>
+        <div class="main-footer__socials">
+          <a href="https://github.com/rayane-belkreir" target="_blank" rel="noopener noreferrer" class="main-footer__social-link">
+            <img src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" 
+                 alt="Logo GitHub" 
+                 class="main-footer__social-link-icon" />
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer__bottom">
+      <div class="main-container">
+        <p class="main-footer__bottom-txt">
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
